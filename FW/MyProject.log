@@ -1,0 +1,27 @@
+0	1	mikrocAVR.exe -MSF -DBG -pATMEGA8A -RA -DL -SSA -O11111114 -fo12 -N"D:\projectsCavr\my\MyProject.mcpav" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\uses\lte64kw\" -SP"D:\projectsCavr\my\" "MyProject.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC.mcl" "__Lib_EEPROM_eew.mcl" "__Lib_FLASH_rwe.mcl" "__Lib_PWM1_2_presc.mcl" "__Lib_PWM16bit_12.mcl" "__Lib_SPI_b5432_x2.mcl" "__Lib_TWI.mcl" "__Lib_UART_d01_ursel.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_Mmc.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_TouchPanel.mcl"	 
+diagnostics: 0	122	Compilation Started	ATMEGA8A.c
+diagnostics: 1063	123	Compiled Successfully	ATMEGA8A.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 170	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__Lib_MemManager.c
+warning: 34	1508	Implicit conversion of int to ptr	__Lib_MemManager.c
+hint: 107	1163	Variable 'tryIt' has been declared, but not used	__Lib_MemManager.c
+hint: 108	1163	Variable 'j' has been declared, but not used	__Lib_MemManager.c
+hint: 109	1163	Variable 'addr' has been declared, but not used	__Lib_MemManager.c
+hint: 109	1163	Variable 'lsize' has been declared, but not used	__Lib_MemManager.c
+diagnostics: 233	123	Compiled Successfully	__Lib_MemManager.c
+diagnostics: 0	126	All files Preprocessed in 32 ms	 
+diagnostics: 0	122	Compilation Started	MyProject.c
+hint: 0	1004	interrupt handler (disp at 0x0009)	MyProject.c
+hint: 0	1004	interrupt handler (tdispupdate at 0x0008)	MyProject.c
+hint: 0	1004	interrupt handler (do_step at 0x0004)	MyProject.c
+hint: 0	1004	interrupt handler (butt_stop at 0x0001)	MyProject.c
+diagnostics: 237	123	Compiled Successfully	MyProject.c
+diagnostics: 0	127	All files Compiled in 93 ms	 
+hint: 0	1144	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)
+hint: 0	1144	Static RAM (bytes): 53   Dynamic RAM (bytes): 971	Static RAM (bytes): 53   Dynamic RAM (bytes): 971
+hint: 0	1144	Used ROM (bytes): 3698 (45%)  Free ROM (bytes): 4494 (55%)	Used ROM (bytes): 3698 (45%)  Free ROM (bytes): 4494 (55%)
+diagnostics: 0	125	Project Linked Successfully	MyProject.mcpav
+diagnostics: 0	128	Linked in 312 ms	 
+diagnostics: 0	129	Project 'MyProject.mcpav' completed: 795 ms	 
+diagnostics: 0	103	Finished successfully: 05 фев 2018, 13:36:26	MyProject.mcpav
